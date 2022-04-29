@@ -1,0 +1,41 @@
+Algoritmo ejerc7
+	Definir i, j, valores1, valores2 como real
+	i = 0
+	j = 0
+	Dimension valores1(3)
+	Dimension valores2(3)
+	arreglo1(i, valores1)
+	arreglo2(j, valores2)
+	Escribir res(valores1, valores2)
+FinAlgoritmo
+
+SubProceso arreglo1(i, valores1 Por referencia)
+	Escribir "arreglo1"
+	para i = 0 Hasta 2 Hacer
+		valores1(i) = Aleatorio(1,2) 
+		Escribir valores1(i)
+	FinPara
+FinSubProceso
+
+SubProceso arreglo2(j, valores2 Por Referencia)
+	Escribir "arreglo2"
+	para j = 0 Hasta 2 Hacer
+		valores2(j) = Aleatorio(1,2) 
+		Escribir valores2(j)
+	FinPara
+FinSubProceso
+
+Funcion resultado <- res(valores1, valores2)
+	Definir resultado como logico
+	Definir i, j como real
+	resultado = Verdadero
+	para i <- 0 hasta 2 hacer
+	 si valores1(i) <> valores2(i) Entonces
+		resultado = falso 
+		i = 3
+	 FinSi
+    FinPara
+FinFuncion
+
+
+	

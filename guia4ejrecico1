@@ -1,0 +1,26 @@
+Algoritmo G4_EJ1
+	
+	Definir vector, i como entero
+	
+	Dimension vector(5)
+	
+	
+	
+	Para i=0 Hasta 4 Hacer
+		
+		Escribir "ingrese el valor del subíndice" i 
+		leer vector(i)
+		
+	
+		
+	Fin Para
+	
+	
+	Escribir vector(4)
+	
+	
+FinAlgoritmo
+//
+//
+//Realizar un programa que rellene un vector con 5 valores ingresados por el usuario y los
+//muestre por pantalla.

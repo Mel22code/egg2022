@@ -1,0 +1,50 @@
+///Realizar un programa que rellene un vector de tamaño N, con valores ingresados por el
+///usuario. A continuación, se deberá crear una función que reciba el vector y devuelva el valor
+///más grande del vector.
+
+
+Algoritmo Ejercicio5_GUIA4
+	Definir vector, i, n Como Entero
+	
+	Escribir "Ingrese el tamaño del vector: "
+	Leer n
+	
+	Dimension vector(n)
+	
+	Escribir "Ingrese los valores:"
+	
+	Para i = 0 Hasta n - 1 Hacer
+		Leer vector(i)
+	FinPara
+	
+	Escribir Sin Saltar "["
+	Para i = 0 Hasta n - 1 Hacer
+		Si i = n - 1 Entonces 
+			Escribir Sin Saltar vector(i)
+		SiNo
+			Escribir Sin Saltar vector(i), ", "
+		FinSi
+	FinPara
+	
+	Escribir Sin Saltar "]"
+	Escribir " "
+	Escribir "El maximo numero es: ", calculo_maximo(vector, n)
+	
+FinAlgoritmo
+
+
+Funcion max <- calculo_maximo(vector, n)
+	Definir max, i Como Entero
+	
+	max = vector(0)
+	
+	Para i = 0 Hasta n - 1  Hacer
+		
+		Si max < vector(i) Entonces
+			max = vector(i)
+		FinSi
+		
+	FinPara
+FinFuncion
+
+	

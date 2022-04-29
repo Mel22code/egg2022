@@ -1,0 +1,59 @@
+Algoritmo G4_EJ2
+	
+	dimension vector(3)
+	
+	Definir vector, i, suma, resta, multiplicacion Como Real
+	
+	Escribir "ingrese 10 números reales"
+	
+	Para i<-0 Hasta 2  Hacer
+		
+		leer vector(i)
+		
+	Fin Para
+	
+	suma = 0
+	
+	Para i=0 Hasta 2 Hacer  //suma
+		
+		suma = vector(i) + suma
+		
+	Fin Para
+	
+	escribir "la suma es: " suma
+	
+	
+	resta = 0 
+	
+	Para i=0 Hasta 2 Hacer  //resta
+		
+		resta = resta - vector(i) 
+		
+	Fin Para
+	
+	
+	escribir "la resta es: " resta
+	
+	
+	multiplicacion = 0 
+	
+	Para i=0 Hasta 2 Hacer  //multiplicación
+		
+		multiplicacion = multiplicacion * vector(i) 
+		
+	Fin Para
+	
+	
+	escribir "la multiplicación es: " multiplicacion
+	
+	
+	
+	
+	
+	
+FinAlgoritmo
+
+
+//Realizar un programa que lea 10 números reales por teclado, los almacene en un arreglo y
+//muestre por pantalla la suma, resta y multiplicación de todos los números ingresados al
+//arreglo.

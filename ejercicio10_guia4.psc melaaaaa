@@ -1,0 +1,50 @@
+//Dada una matriz de orden n * m (donde n y m son valores ingresados por el usuario) realizar
+//un subprograma que llene la matriz de numeros aleatorios. Despues, crearemos otro
+//subprograma que calcule y muestre la suma de los elementos de la matriz. Mostrar la matriz y
+//los resultados por pantalla.
+
+Algoritmo ejercicio10_guia4
+	
+	definir n, m, matriz Como Real
+	escribir "ingresar el valor de n y m"
+	leer n, m
+	dimension matriz(n,m)
+	
+	rellenarmatriz(n,m,matriz)
+	
+	sumamatriz(n,m,matriz)
+FinAlgoritmo
+
+subproceso rellenarmatriz(n,m,matriz)
+	Definir i, j Como Real
+	para i=0 hasta n-1 Hacer
+		
+		para j=0 hasta n-1 Hacer
+			matriz(i,j) = Aleatorio(1,5)
+			escribir sin saltar " "  matriz(i,j)
+		FinPara
+		escribir " "
+	FinPara
+	
+FinSubProceso
+subproceso sumamatriz(n,m,matriz)
+	Definir i, j, suma Como Real
+	suma= 0
+	para i=0 hasta n-1 Hacer
+		
+		para j=0 hasta n-1 Hacer
+			
+			suma= suma  + matriz(i,j)
+		FinPara
+		
+	FinPara
+	escribir "la suma de los elementos de la matriz es igual a " suma
+FinSubProceso
+
+
+
+
+
+
+
+

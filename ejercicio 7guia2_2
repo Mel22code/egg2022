@@ -1,0 +1,16 @@
+Algoritmo ejerc7
+	Definir palabra como caracter
+	Definir aux como cadena 
+	Definir h, i  Como Entero
+	Escribir " diga una palabra"
+	leer palabra
+	h = Longitud(palabra) 
+	i = 0 
+	para i = 0 hasta Longitud(palabra) Hacer
+		aux = subcadena( palabra , i, i)
+		 Escribir Sin Saltar SubCadena( palabra , i, i)
+		 Escribir Sin Saltar " "
+	FinPara 
+Escribir " "
+FinAlgoritmo
+

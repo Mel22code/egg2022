@@ -1,0 +1,9 @@
+Algoritmo ejerc6
+	definir num Como Entero
+	Escribir " el numero al cuadrado del 1 al 9"
+	para num = 1 Hasta 9 Con Paso 1 Hacer
+		Escribir num " elevado al cuadrado es " 
+		Escribir num ^ 2
+	FinPara
+FinAlgoritmo
+/// hecho

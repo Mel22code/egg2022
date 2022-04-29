@@ -1,0 +1,42 @@
+
+Algoritmo Ejerciciorepaso
+	definir num, ancho, largo, espesor Como Real
+	
+FinAlgoritmo
+
+Subproceso Menu( )
+
+
+finsubproceso
+
+
+Subproceso Viga( )
+	
+	definir num como real
+	
+	escribir "ingrese el largo de la columna"
+	leer num
+	
+	cem= num * 9
+	arena= num* 0.02
+	piedra=num* 0.02
+	hierrodel8= num* 4
+	hierrodel4=num* 3
+	
+	escribir "la cantidad de material que necesita es la siguiente" cem "kg de cemento" arena  "m3 de arena", piedra "m3 de piedra", hierrodel8 "metros de hierro del 8", hierrodel4  "metros del hierro del 4"
+	
+FinSubProceso
+
+
+
+
+
+
+
+
+
+
+
+
+
+
